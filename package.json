@@ -1,5 +1,14 @@
 {
+  "scripts": {
+  "build":"rm -rf dist && parcel build index.html --no-minify --public-url ./"
+  },
   "devDependencies": {
     "cssnano": "^4.1.10"
-  }
+  },
+  "name": "40.nivagition",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wangzhen-git/Navigation.git",
+  "author": "ergou <15066090444@qq.com>",
+  "license": "MIT"
 }
